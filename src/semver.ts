@@ -17,11 +17,11 @@ export function nextVersion(version: string): string {
   // length of version, not including periods
   const versionNoDotsLength = versionNoDots.length;
 
-  // converts string version to an int
-  const intVersion = parseInt(versionNoDots);
+  // converts string version to a bigint, this handles versions longer than 16 digits
+  const intVersion = BigInt(versionNoDots);
 
   // increments the version by 1
-  const incrementedVersion = intVersion + 1;
+  const incrementedVersion = intVersion + BigInt(1);
 
   // convert incremented version to string
   const incrementedVersionString = incrementedVersion.toString();
