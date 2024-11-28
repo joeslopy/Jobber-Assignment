@@ -28,7 +28,7 @@ This project requires Node.js and yarn to run. Please follow instruction steps 1
 git clone https://github.com/joeslopy/Jobber-Assignment.git
 ```
 
-3. Navigate the project directory
+4. Navigate the project directory
 
 ### 1. Installing Node.js
 
