@@ -1,0 +1,14 @@
+{
+  "name": "jobber-assignment",
+  "version": "1.0.0",
+  "description": "Increment Semver",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
