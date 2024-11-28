@@ -18,7 +18,9 @@ This project requires Node.js and yarn to run. Please follow instruction steps 1
 #### Cloning from git
 
 1. Please visit [My Github page](https://github.com/joeslopy/Jobber-Assignment)
-2. You can clone the repository by running:
+2. Click "Code" and choose the method you would like to use to clone the repo
+   **Or :**
+3. Simply clone the repository by running:
 
 ```bash
 git clone https://github.com/joeslopy/Jobber-Assignment.git
